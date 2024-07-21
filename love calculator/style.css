@@ -1,0 +1,40 @@
+body {
+  background-color: #67686a;
+}
+.container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+ .abc{
+  font-size: 35px;
+  color: #4ECCA3;
+  font-family: 'Lobster', cursive;
+ }
+ .def{
+  font-size: 20px
+ }
+ h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+} 
+button{
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  border-color: black;
+  background-color:#4ECCA3;
+  font-family:'Lobster', cursive ;
+  font-size: 2rem;
+}
+h3{
+  font-size: 3rem;
+  font-family:sans-serif
+}
+h4{
+  font-size: 2rem;
+  font-weight: lighter;
+}

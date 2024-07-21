@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>love calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+    </head>
+    <body>
+        <script>
+            function myFun(){
+            var n=Math.floor(Math.random() * 100) + 1;
+            alert("According to predictions your love percent is:"+n+"%");
+            }
+        </script>
+        <div class="container">
+        <h1>LOVE CALCULATOR</h1>
+        <h3>Welcome to this great invention of Doctor Love!</h3>
+        <h4>We all know that a name can tell a lot about a person. Names are not randomly chosen: they all have a meaning. Doctor Love knew this so he made another great invention just for the lonely you!
+
+            Sometimes you'd like to know if a relationship with someone could work out. Therefore Doctor Love himself designed this great machine for you. With The Love Calculator you can calculate the probability of a successful relationship between two people. The Love Calculator is an affective way to get an impression of what the chances are on a relationship between two people.
+            
+            To find out what the chances for you and your dream partner are, just fill in both full names (both first and last name) in the two text boxes below, and press Calculate.
+        </h4>
+        <form>
+            <label for="html" class="abc">1St name:</label><input type="text" id="html" name="fname" class="def"><br>
+            <label for="html2" class="abc">2nd name:</label><input type="text" id="html2" name="fname2" class="def"><br><br>
+            <button onclick="myFun()">Calculate</button>
+        </form>
+        </div>
+    </body>
+</html>
